@@ -1,4 +1,4 @@
-  body, html {
+ body, html {
 	height: 100%;
 	width: 100%;
 	margin:0px;
@@ -35,8 +35,7 @@
 }
 
 
-
-.pad {
+.logo-starwei {
 	padding-top: 15px;
 	height: 65px;
 	margin-top: 5px;
@@ -44,25 +43,26 @@
 }			
 
 
-.petit {
+.lien-navbar {
 	padding-top: 35px;
 	margin-left : 15px; 
 	height: 70px;
 	font-family: 'star_jediregular';
 	line-height: 48px;
 	margin-top : 28px;
+	color : #000000 !important;
+	font-size:30px;
 	/* width: 50%; */
 }	
 
-.petit:hover {
+.lien-navbar:hover {
 	
 	opacity : 0.6;
-	background-color: #4CAF50; 
 }
 
 
 
-.pt{
+.connexion-logo {
 	padding-bottom: 5px;
 	margin-right : 30px;	
 	margin-left: 20px;
@@ -71,41 +71,48 @@
 	
 }
 
-.pt:hover {
+.connexion-logo:hover {
 	
 	opacity : 0.6;
 	background-color: #FFFFFF; 
 }
 
-.splash {
+
+.fond_ecran {
     width: 100%;
      z-index: 0;
 }
 
 
 
-.col-sm-3{
+.col-sm-3 {
 	padding: 70px;
 	padding-top : 10px;
 	background: #000000;
 
 }
 
-.row{background: #000000;}
+.row {
+	background: #000000;
+}
 
 
-h3 {
+h3,h4 {
   color: white;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
  
 }
 
-
-h4 {
-  color: white;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  
+.footer-text {
+	
+	color: white;
 }
+
+.footer-text:hover {
+	
+	color: white;
+}
+
 
 
 * {
